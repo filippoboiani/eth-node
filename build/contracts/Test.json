@@ -1,0 +1,64 @@
+{
+  "contract_name": "Test",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "uno",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_uno",
+          "type": "uint256"
+        },
+        {
+          "name": "_due",
+          "type": "bool"
+        }
+      ],
+      "name": "test",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "due",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b60f28061001b6000396000f300606060405263ffffffff60e060020a600035041663184c69658114603457806354ccd7771460535780638749034e14607c575bfe5b3415603b57fe5b6041609d565b60408051918252519081900360200190f35b3415605a57fe5b6068600435602435151560a3565b604080519115158252519081900360200190f35b3415608357fe5b606860bd565b604080519115158252519081900360200190f35b60005481565b60008290556001805460ff19168215151781555b92915050565b60015460ff16815600a165627a7a723058204a72f07650cda0a4dd0ce97c01fedcfef162c640cfb1e399647c9af1723ff1570029",
+  "networks": {
+    "1498403573265": {
+      "events": {},
+      "links": {},
+      "address": "0xa84ced7a800f9d2d4877ae7935767e36333dc1fe",
+      "updated_at": 1498403633022
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1498412716577
+}

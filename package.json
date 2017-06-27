@@ -1,0 +1,30 @@
+{
+  "name": "raw",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "author": "Filippo & Riccardo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "dev": "nodemon index.js --exec babel-node --presets es2015,stage-2",
+    "prod": "node index.js",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "ethers": "^2.1.1",
+    "etherscan-api": "^3.0.6",
+    "http": "0.0.0",
+    "jsonfile": "^3.0.0",
+    "left-pad": "^1.1.3",
+    "path": "^0.12.7",
+    "web3": "^0.19.1"
+  }
+}
