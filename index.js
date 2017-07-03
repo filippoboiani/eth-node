@@ -94,6 +94,7 @@ let createRawTransaction = (data) => {
         // EIP 155 chainId - mainnet: 1, ropsten: 3
         chainId: 3
     }
+
     console.log(`txParams: ${txParams}`);
     let tx = new Transaction(txParams);
 
@@ -143,12 +144,7 @@ let callFunction = (name, values) => {
     });
 }
 
-
-let test1 = false;
-let test4 = false;
-let test5 = false;
-
-if (test1) {
+if (false) {
     web3.personal.unlockAccount(web3.eth.accounts[0], 'test-account-pwd');
     web3.eth
         .contract(testContract.abi)
